@@ -90,7 +90,7 @@ class ClassComp extends React.Component{
   componentDidMount(){
     console.log("%cclass=> componentDidMount ",classStyle);
   }
- 
+
   shouldComponentUpdate(nextProps,nextState){
     console.log("%cclass=>shouldComponentUpdate",classStyle);
     return true;

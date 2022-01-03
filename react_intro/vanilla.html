@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <title>Document</title>
+</head>
+<body>
+  <span>Total clicks: 0</span>
+    <button id="click">click me</button>
+    <script>
+      let conuter = 0;
+      const button = document.getElementById('click');
+      const span = document.querySelector('span')
+      function headleClick(){
+        conuter = conuter+1;
+     
+        span.innerText = 'Total clicks:'+conuter;
+      }
+      button.addEventListener('click',headleClick)
+    </script>
+</body>
+</html>
