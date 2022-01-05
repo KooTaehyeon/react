@@ -19,7 +19,6 @@ function App() {
       {loading ? <strong>Loading... </strong>:null}
       <select>
       {coins.map((coin)=><option>{coin.name}({coin.symbol}) :{coin.quotes.USD.price} USD</option>)}
-
       </select>
     </div>
   );
