@@ -1,2 +1,2 @@
 # react
-link:[페이지] ("https://KooTaehyeon.github.io/react/")
+페이지 보기 ("https://KooTaehyeon.github.io/react/")
