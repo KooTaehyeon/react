@@ -24,6 +24,7 @@ function Home (){
        <Movie
        key={item.id}
        id={item.id}
+       year={item.year}
        coverImage={item.medium_cover_image} 
        title={item.title} 
        summary={item.summary}
