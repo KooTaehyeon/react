@@ -12,7 +12,6 @@ function App() {
  <Router basename={process.env.PUBLIC_URL}>
    <Navigation></Navigation>
    <Routes basename={process.env.PUBLIC_URL}>
-     
    <Route path={`/`} exact={true} element={<Home />} ></Route>
    <Route path={"/about"} element={<About />} ></Route>
      <Route path="/movie/:id" element={<Detail />} ></Route>
